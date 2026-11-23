@@ -1,0 +1,41 @@
+name: solar_system
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  model_viewer_plus: ^1.9.3
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/sun.png
+    - assets/mercury.png
+    - assets/venus.png
+    - assets/earth.png
+    - assets/mars.png
+    - assets/jupiter.png
+    - assets/saturn.png
+    - assets/uranus.png
+    - assets/neptune.png
+    - assets/models/sun.glb
+    - assets/models/mercury.glb
+    - assets/models/venus.glb
+    - assets/models/earth.glb
+    - assets/models/mars.glb
+    - assets/models/jupiter.glb
+    - assets/models/saturn.glb
+    - assets/models/uranus.glb
+    - assets/models/neptune.glb
